@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Repo](https://newsletter-form-xi.vercel.app/)
+- Solution URL: [Repo](https://github.com/Miller1999/NewsletterForm)
 - Live Site URL: [Live Site ](https://newsletter-form-xi.vercel.app/)
 
 ## My process
