@@ -149,3 +149,38 @@ body {
 	color: var(--White);
 	text-decoration: none;
 }
+@media (max-width: 430px) {
+	body {
+		background-color: var(--White);
+	}
+	.container {
+		flex-direction: column-reverse;
+		width: 100%;
+		height: 100%;
+		padding: 0rem;
+	}
+	.container--form,
+	.container--message {
+		width: 100%;
+		padding: 2rem 1rem;
+	}
+	.container--form h1,
+	.container--message h1 {
+		font-size: 2rem;
+		font-weight: 700;
+	}
+	.container--img {
+		width: 100%;
+	}
+	.container--img img {
+		width: 100%;
+		height: 100%;
+	}
+
+	.hidden {
+		display: none;
+	}
+	footer {
+		display: none;
+	}
+}

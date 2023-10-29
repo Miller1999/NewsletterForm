@@ -5,10 +5,18 @@ const main = document.getElementById("form");
 const message = document.getElementById("message");
 const formMessage = document.querySelector("span");
 const email = document.getElementById("mail");
+const image = document.getElementById("image");
 
 const buttonsList = Array.from(buttons);
 
-console.log(formMessage);
+const breakpoint = 430;
+
+function changeSize() {
+	if (window.innerWidth <= breakpoint) {
+		image.src = "./assets/images/illustration-sign-up-mobile.svg";
+	}
+}
+
 buttonsList.forEach((button) => {
 	button.addEventListener("click", (e) => {
 		e.preventDefault();
@@ -34,3 +42,5 @@ input.addEventListener("blur", (e) => {
 	}
 	email.innerText = mail;
 });
+
+window.onresize = changeSize();
